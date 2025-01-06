@@ -71,7 +71,7 @@
 </head>
 <body>
     <div class="header">
-        <h1>Jenkins NinjaDevOps Labs</h1>
+        <h1>Jenkins NinjaDevOps Labs ----->> Practise </h1>
         <p>Your Gateway to CI/CD Excellence</p>
     </div>
     <div class="content">
