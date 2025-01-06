@@ -3,69 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rajinikanth-BlickIT</title>
+    <title>Jenkins NinjaDevOps Labs</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
+            color: #333;
         }
         .header {
-            background-color: #333;
+            background-color: #1f6fba;
             color: #fff;
-            padding: 10px 20px;
-            text-align: left;
+            padding: 20px;
+            text-align: center;
         }
         .header h1 {
             margin: 0;
+            font-size: 2.5em;
         }
-        .search-container {
-            text-align: center;
+        .header p {
+            margin: 0;
+            font-size: 1.2em;
+        }
+        .content {
             padding: 20px;
         }
-        .search-container input[type="text"] {
-            width: 50%;
-            padding: 10px;
-            margin-right: 10px;
-            border: none;
-            border-radius: 5px;
-        }
-        .search-container input[type="submit"] {
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            background-color: #5cb85c;
-            color: white;
-            cursor: pointer;
-        }
-        .products {
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
+        .section {
+            margin-bottom: 30px;
             padding: 20px;
-        }
-        .product {
             border: 1px solid #ddd;
-            margin-bottom: 20px;
-            padding: 10px;
-            width: 30%;
+            border-radius: 5px;
             background-color: #fff;
         }
-        .product img {
-            max-width: 100%;
-            height: auto;
+        .section h2 {
+            margin-top: 0;
         }
-        .product h3 {
+        .pipeline {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 15px;
+        }
+        .pipeline-item {
+            flex: 1 1 calc(30% - 10px);
+            border: 1px solid #ddd;
+            padding: 10px;
             text-align: center;
+            background-color: #f9f9f9;
+            border-radius: 5px;
         }
-        .add-to-cart {
-            background-color: #007bff;
-            color: white;
-            padding: 10px 20px;
-            text-decoration: none;
-            display: inline-block;
-            margin-top: 10px;
+        .pipeline-item img {
+            width: 100%;
+            max-width: 150px;
+            margin-bottom: 10px;
         }
         .footer {
             background-color: #333;
@@ -80,26 +71,45 @@
 </head>
 <body>
     <div class="header">
-        <h1>Rajinikanth-BlickIT</h1>
+        <h1>Jenkins NinjaDevOps Labs</h1>
+        <p>Your Gateway to CI/CD Excellence</p>
     </div>
-    <div class="search-container">
-        <input type="text" placeholder="Search for products...">
-        <input type="submit" value="Search">
-    </div>
-    <div class="products">
-        <!-- Example product -->
-        <div class="product">
-            <img src="https://via.placeholder.com/150" alt="Fruit">
-            <h3>Fruits</h3>
-            <p>List of fruits...</p>
-            <a href="#" class="add-to-cart">Add to Cart</a>
+    <div class="content">
+        <div class="section">
+            <h2>About Jenkins</h2>
+            <p>Jenkins is an open-source automation server that enables developers to build, deploy, and automate projects efficiently. At NinjaDevOps Labs, we leverage Jenkins for scalable CI/CD pipelines.</p>
         </div>
-        <!-- Repeat for other categories -->
+        <div class="section">
+            <h2>Active Pipelines</h2>
+            <div class="pipeline">
+                <div class="pipeline-item">
+                    <img src="https://via.placeholder.com/150" alt="Pipeline 1">
+                    <h3>Build Pipeline</h3>
+                    <p>Automated builds for Java projects</p>
+                </div>
+                <div class="pipeline-item">
+                    <img src="https://via.placeholder.com/150" alt="Pipeline 2">
+                    <h3>Deploy Pipeline</h3>
+                    <p>Seamless deployments to Kubernetes</p>
+                </div>
+                <div class="pipeline-item">
+                    <img src="https://via.placeholder.com/150" alt="Pipeline 3">
+                    <h3>Test Pipeline</h3>
+                    <p>Comprehensive test automation for all environments</p>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <h2>Contact NinjaDevOps Labs</h2>
+            <p>Have questions or need assistance with Jenkins? Reach out to us:</p>
+            <ul>
+                <li>Email: support@ninjadevopslabs.com</li>
+                <li>Phone: +123 456 7890</li>
+            </ul>
+        </div>
     </div>
     <div class="footer">
-        <p>Pay with Paytm using the number: [Your-Paytm-Number]</p>
-        <p>Or scan the QR code:</p>
-        <img src="https://via.placeholder.com/100" alt="Paytm QR Code">
+        <p>&copy; 2025 NinjaDevOps Labs. All Rights Reserved.</p>
     </div>
 </body>
 </html>
